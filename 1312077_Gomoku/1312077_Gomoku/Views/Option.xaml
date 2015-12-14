@@ -1,0 +1,16 @@
+﻿<Window x:Class="_1312077_Gomoku.Views.Option"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_1312077_Gomoku.Views"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterOwner" ShowInTaskbar="False"
+        Title="Option" Height="255" Width="246" WindowStyle="SingleBorderWindow" ResizeMode="NoResize">
+    <Grid>
+        <Button x:Name="PvsP" Content="Player vs Player" HorizontalAlignment="Left" Margin="50,10,50,0" VerticalAlignment="Top" Width="140" Height="40" Click="PvsP_Click"/>
+        <Button x:Name="PvsAI" Content="Player vs Computer" HorizontalAlignment="Left" Margin="50,65,50,0" VerticalAlignment="Top" Width="140" Height="40" Click="PvsAI_Click"/>
+        <Button x:Name="P_Online" Content="Play Online" HorizontalAlignment="Left" Margin="50,120,50,0" VerticalAlignment="Top" Width="140" Height="40" Click="P_Online_Click"/>
+        <Button x:Name="AI_Online" Content="AI Online" HorizontalAlignment="Left" Margin="50,175,50,10" VerticalAlignment="Top" Width="140" Height="40" Click="AI_Online_Click"/>
+    </Grid>
+</Window>
