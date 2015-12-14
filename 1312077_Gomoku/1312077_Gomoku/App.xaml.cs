@@ -7,7 +7,7 @@ using System.Windows;
 
 namespace _1312077_Gomoku
 {
-    /// <summary>
+    /// <Test>
     /// Interaction logic for App.xaml
     /// </summary>
     public partial class App : Application
